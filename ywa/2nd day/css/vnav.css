@@ -26,9 +26,8 @@ li a:hover:not(.active){
     color: #fff;
 }
 div{
-    margin-left:25%;
-    padding: 2px 30px;
+    margin-left:26%;
+    padding: 2px 40px;
     background-color:#ddd;
     height: 1000px;
-    width: 10000px;
 }
