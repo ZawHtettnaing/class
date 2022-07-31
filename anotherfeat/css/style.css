@@ -1,0 +1,12 @@
+.header{
+			color: red;
+			text-align: center;
+			font-size: 50px;
+			font-weight: bold;
+			background-color: lightblue;
+		}
+		.content{
+			color: grey;
+			display: block;
+			background-color: lightcyan;
+		}
