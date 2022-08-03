@@ -14,12 +14,16 @@ public class Hotel {
 		// System.out.println("ROOM TYPE\n" + );
 		// System.out.println("CUSTOMER NAME\tROOM TYPE\tTOTAL ROOM\tPRICES");
 		// System.out.print(name);
+		String price = 0;
 		if(rt.equals("1")) {
 			System.out.println("ROOM TYPE\nSea View");
+			price = 12;
 			// System.out.println("Sea View");
 		} else if(rt.equals("2")) {
+			price = 4;
 			System.out.println("ROOM TYPE\nSecond Sea View");
 		} else if(rt.equals("3")) {
+			price = 22;
 			System.out.println("ROOM TYPE\nGarden View");
 		}
 		if(tr.equals("1")) {
@@ -29,25 +33,7 @@ public class Hotel {
 		} else if(tr.equals("3")) {
 			System.out.println("TOTAL ROOM\n3");
 		}
-		if(rt.equals("1")&&tr.equals("1")) {
-			System.out.println("PRICES\n" + (1*12));
-		} else if(rt.equals("1")&&tr.equals("2")) {
-			System.out.println("PRICES\n" + (2*12));
-		} else if(rt.equals("1")&&tr.equals("3")) {
-			System.out.println("PRICES\n" + (3*12));
-		} else if(rt.equals("2")&&tr.equals("1")) {
-			System.out.println("PRICES\n" + (1*4));
-		} else if(rt.equals("2")&&tr.equals("2")) {
-			System.out.println("PRICES\n" + (2*4));
-		} else if(rt.equals("2")&&tr.equals("3")) {
-			System.out.println("PRICES\n" + (3*4));
-		} else if(rt.equals("3")&&tr.equals("1")) {
-			System.out.println("PRICES\n" + (1*22));
-		} else if(rt.equals("3")&&tr.equals("2")) {
-			System.out.println("PRICES\n" + (2*22));
-		} else if(rt.equals("3")&&tr.equals("3")) {
-			System.out.println("PRICES\n" + (3*22));
-		}
+			System.out.println("PRICES\n" + (price*tr));
 		System.out.println("------------------------------------------------------------------------------------------------------------------------");
 	}
 }
