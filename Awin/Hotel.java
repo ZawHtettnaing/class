@@ -26,7 +26,7 @@ public class Hotel {
 			price = 22;
 			System.out.println("ROOM TYPE\nGarden View");
 		}
-			System.out.println("TOTAL ROOM\ntr");
+			System.out.println("TOTAL ROOM\n"+tr);
 			System.out.println("PRICES\n" + (price*tr));
 		System.out.println("------------------------------------------------------------------------------------------------------------------------");
 	}
