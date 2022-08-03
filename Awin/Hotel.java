@@ -26,13 +26,7 @@ public class Hotel {
 			price = 22;
 			System.out.println("ROOM TYPE\nGarden View");
 		}
-		if(tr.equals("1")) {
-			System.out.println("TOTAL ROOM\n1");
-		} else if(tr.equals("2")) {
-			System.out.println("TOTAL ROOM\n2");
-		} else if(tr.equals("3")) {
-			System.out.println("TOTAL ROOM\n3");
-		}
+			System.out.println("TOTAL ROOM\ntr");
 			System.out.println("PRICES\n" + (price*tr));
 		System.out.println("------------------------------------------------------------------------------------------------------------------------");
 	}
